@@ -33,14 +33,13 @@ export function AboutSection() {
               <CardContent className="p-8">
                 <h3 className="text-2xl font-bold mb-8 text-center">My Expertise</h3>
                 <div className="grid grid-cols-2 gap-4">
-                  {["HTML", "CSS", "JavaScript", "WordPress", "PHP", "React", "Next.js", "AI", "Claude", "ChatGPT"].map((skill) => (
+                  {["AI", "Claude", "ChatGPT", "HTML", "CSS", "JavaScript", "WordPress", "PHP", "React", "Next.js"].map((skill) => (
                     <div
                       key={skill}
                       className={`
                         bg-background p-4 rounded-lg text-center shadow-sm
                         transition-all duration-300 hover:shadow-md hover:scale-105
                         hover:bg-primary hover:text-primary-foreground
-                        ${skill === "Next.js" ? "col-span-2" : ""}
                       `}
                     >
                       {skill}
@@ -60,7 +59,7 @@ export function AboutSection() {
             <h3 className="text-2xl font-bold mb-4">Who I Am</h3>
             <p className="text-muted-foreground mb-6">
               I'm a passionate web developer with a strong focus on creating responsive, user-friendly applications.
-              With expertise in HTML, CSS, JavaScript, WordPress, PHP, React, and Next.js, I strive to build seamless
+              With expertise in AI, Claude, ChatGPT, HTML, CSS, JavaScript, WordPress, PHP, React, and Next.js, I strive to build seamless
               digital experiences.
             </p>
             <p className="text-muted-foreground mb-6">
