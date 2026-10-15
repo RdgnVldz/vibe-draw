@@ -11,15 +11,6 @@ import Link from "next/link"
 const projects = [
   {
     id: 1,
-    title: "Constituency",
-    image: "/constituency.png",
-    tags: ["WordPress", "Elementor", "Hostinger", "Figma"],
-    tagColors: ["#0073aa", "#92003B", "#FF6B35", "#A100F2"],
-    liveUrl: "https://constituency.ie/",
-    hideGithub: true,
-  },
-  {
-    id: 2,
     title: "Philomedia",
     image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-VQM4Jg7bgVZRxu97WrRScMFLeDirhI.png",
     tags: ["WordPress", "Elementor", "Hostinger", "Figma"],
@@ -28,12 +19,21 @@ const projects = [
     hideGithub: true,
   },
   {
+    id: 2,
+    title: "Constituency",
+    image: "/constituency.png",
+    tags: ["WordPress", "Elementor", "Hostinger", "Figma"],
+    tagColors: ["#0073aa", "#92003B", "#FF6B35", "#A100F2"],
+    liveUrl: "https://constituency.ie/",
+    hideGithub: true,
+  },
+  {
     id: 3,
-    title: "Food Ordering System UI",
-    image: "/tomato.png",
-    tags: ["React", "UI/UX", "Responsive", "Tailwind CSS"],
-    tagColors: ["#61dafb", "#FF5A5F", "#0EA5E9", "#38bdf8"],
-    liveUrl: "https://rdgnvldz.github.io/",
+    title: "Nephin",
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-YdMGQ1fSTDLyjl8s2W4ZoEilH2lX1i.png",
+    tags: ["WordPress", "Elementor", "Hostinger", "Figma"],
+    tagColors: ["#0073aa", "#92003B", "#FF6B35", "#A100F2"],
+    liveUrl: "https://nephin.ie/",
     hideGithub: true,
   },
 ]
