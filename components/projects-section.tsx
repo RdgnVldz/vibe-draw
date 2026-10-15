@@ -21,7 +21,7 @@ const projects = [
   {
     id: 2,
     title: "Philomedia",
-    image: "/philomedia.jpg",
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-VQM4Jg7bgVZRxu97WrRScMFLeDirhI.png",
     tags: ["WordPress", "Elementor", "Hostinger", "Figma"],
     tagColors: ["#0073aa", "#92003B", "#FF6B35", "#A100F2"],
     liveUrl: "https://philomedia.ie/",
