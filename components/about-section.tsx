@@ -33,7 +33,7 @@ export function AboutSection() {
               <CardContent className="p-8">
                 <h3 className="text-2xl font-bold mb-8 text-center">My Expertise</h3>
                 <div className="grid grid-cols-2 gap-4">
-                  {["HTML", "CSS", "JavaScript", "WordPress", "PHP", "React", "Next.js"].map((skill, index) => (
+                  {["HTML", "CSS", "JavaScript", "WordPress", "PHP", "React", "Next.js", "AI", "Claude", "ChatGPT"].map((skill) => (
                     <div
                       key={skill}
                       className={`
@@ -80,7 +80,7 @@ export function AboutSection() {
               </div>
               <div>
                 <h4 className="font-medium mb-2">Location:</h4>
-                <p className="text-muted-foreground">Cebu City, Philippines</p>
+                <p className="text-muted-foreground">Manila, Philippines</p>
               </div>
               <div>
                 <h4 className="font-medium mb-2">Availability:</h4>

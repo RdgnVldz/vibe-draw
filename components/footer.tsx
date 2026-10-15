@@ -32,7 +32,7 @@ export function Footer() {
               className="flex items-center mb-3 hover:opacity-90 transition-opacity"
             >
               <div className="relative h-12 w-12 overflow-hidden rounded-full border border-muted">
-                <Image src="/profile.png" alt="Rodgen Valdez" fill className="object-cover" />
+                <Image src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-V4OJE8qDPW2YFKL7BLDSr3t3hqUqCf.png" alt="Rodgen Valdez" fill className="object-cover" />
               </div>
               <span className="ml-3 font-bold text-xl tracking-tight">RDGN</span>
             </button>

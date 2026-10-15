@@ -55,7 +55,7 @@ export function Navbar() {
             className="flex items-center hover:opacity-80 transition-opacity"
           >
             <div className="relative h-10 w-10 overflow-hidden rounded-full border border-muted">
-              <Image src="/profile.png" alt="Rodgen Valdez" fill className="object-cover" priority />
+              <Image src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-V4OJE8qDPW2YFKL7BLDSr3t3hqUqCf.png" alt="Rodgen Valdez" fill className="object-cover" priority />
             </div>
             <span className="ml-2 font-bold text-lg tracking-tight">RDGN</span>
           </button>
