@@ -2,8 +2,6 @@
 
 import { motion } from "framer-motion"
 import { Card, CardContent } from "@/components/ui/card"
-import { Button } from "@/components/ui/button"
-import { Download } from "lucide-react"
 
 export function AboutSection() {
   return (
@@ -87,16 +85,6 @@ export function AboutSection() {
               </div>
             </div>
 
-            <Button asChild>
-              <a
-                href="https://drive.google.com/file/d/1Bj_3UryqB9FHiQg7Ogh71w6X-6PaCFoq/view?usp=sharing"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Download className="mr-2 h-4 w-4" />
-                Download Resume
-              </a>
-            </Button>
           </motion.div>
         </div>
       </div>
