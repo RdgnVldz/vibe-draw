@@ -192,7 +192,7 @@ export function ContactSection() {
                     <MapPin className="h-5 w-5 mr-3 text-primary" />
                     <div>
                       <h4 className="font-medium">Location</h4>
-                      <p className="text-muted-foreground">Cebu City, Philippines</p>
+                      <p className="text-muted-foreground">Manila, Philippines</p>
                     </div>
                   </div>
                   <div className="flex items-start">
@@ -211,7 +211,7 @@ export function ContactSection() {
                     <Phone className="h-5 w-5 mr-3 text-primary" />
                     <div>
                       <h4 className="font-medium">Phone</h4>
-                      <p className="text-muted-foreground">+63 97578-50354</p>
+                      <p className="text-muted-foreground">09247022364</p>
                     </div>
                   </div>
                 </div>

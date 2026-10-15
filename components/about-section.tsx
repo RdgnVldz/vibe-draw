@@ -2,8 +2,6 @@
 
 import { motion } from "framer-motion"
 import { Card, CardContent } from "@/components/ui/card"
-import { Button } from "@/components/ui/button"
-import { Download } from "lucide-react"
 
 export function AboutSection() {
   return (
@@ -33,14 +31,13 @@ export function AboutSection() {
               <CardContent className="p-8">
                 <h3 className="text-2xl font-bold mb-8 text-center">My Expertise</h3>
                 <div className="grid grid-cols-2 gap-4">
-                  {["HTML", "CSS", "JavaScript", "WordPress", "PHP", "React", "Next.js"].map((skill, index) => (
+                  {["AI", "Claude", "ChatGPT", "HTML", "CSS", "JavaScript", "WordPress", "PHP", "React", "Next.js"].map((skill) => (
                     <div
                       key={skill}
                       className={`
                         bg-background p-4 rounded-lg text-center shadow-sm
                         transition-all duration-300 hover:shadow-md hover:scale-105
                         hover:bg-primary hover:text-primary-foreground
-                        ${skill === "Next.js" ? "col-span-2" : ""}
                       `}
                     >
                       {skill}
@@ -60,7 +57,7 @@ export function AboutSection() {
             <h3 className="text-2xl font-bold mb-4">Who I Am</h3>
             <p className="text-muted-foreground mb-6">
               I'm a passionate web developer with a strong focus on creating responsive, user-friendly applications.
-              With expertise in HTML, CSS, JavaScript, WordPress, PHP, React, and Next.js, I strive to build seamless
+              With expertise in AI, Claude, ChatGPT, HTML, CSS, JavaScript, WordPress, PHP, React, and Next.js, I strive to build seamless
               digital experiences.
             </p>
             <p className="text-muted-foreground mb-6">
@@ -80,7 +77,7 @@ export function AboutSection() {
               </div>
               <div>
                 <h4 className="font-medium mb-2">Location:</h4>
-                <p className="text-muted-foreground">Cebu City, Philippines</p>
+                <p className="text-muted-foreground">Manila, Philippines</p>
               </div>
               <div>
                 <h4 className="font-medium mb-2">Availability:</h4>
@@ -88,16 +85,6 @@ export function AboutSection() {
               </div>
             </div>
 
-            <Button asChild>
-              <a
-                href="https://drive.google.com/file/d/1Bj_3UryqB9FHiQg7Ogh71w6X-6PaCFoq/view?usp=sharing"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Download className="mr-2 h-4 w-4" />
-                Download Resume
-              </a>
-            </Button>
           </motion.div>
         </div>
       </div>
